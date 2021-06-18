@@ -1,26 +1,25 @@
-export default [
+const cartItems = [
   {
     id: 1,
-    title: "Samsung Galaxy S7",
-    price: 599.99,
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368215/phone-2_ohtt5s.png",
-    amount: 1
+    title: 'Samsung Galaxy S21 Ultra',
+    price: 1199.99,
+    img: 'https://images-na.ssl-images-amazon.com/images/I/91BAitkzszL._SX679_.jpg',
+    amount: 1,
   },
   {
     id: 2,
-    title: "google pixel ",
-    price: 499.99,
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1583371867/phone-1_gvesln.png",
-    amount: 1
+    title: 'google Pixel 6 ',
+    price: 899.99,
+    img: 'https://www.91-img.com/pictures/143605-v2-google-pixel-6-mobile-phone-large-1.jpg?tr=q-100',
+    amount: 1,
   },
   {
     id: 3,
-    title: "Xiaomi Redmi Note 2",
-    price: 699.99,
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1583368224/phone-3_h2s6fo.png",
-    amount: 1
-  }
+    title: 'Huawei P40 Pro',
+    price: 1099.99,
+    img: 'https://images-na.ssl-images-amazon.com/images/I/61VX0szn4aL._SX679_.jpg',
+    amount: 1,
+  },
 ];
+
+export default cartItems;
